@@ -7,7 +7,7 @@ public class Movie {
 
    public Movie(Actor actor) {
       this.actor = actor;
-      System.out.println(actor);
+      System.out.println(actor);//prints the values
 
    }
 

@@ -14,7 +14,6 @@ public class Actor{
         this.gender = gender;
         this.age = age;
     }
-
     @Override
     public String toString() {
         return "Actor{" +
