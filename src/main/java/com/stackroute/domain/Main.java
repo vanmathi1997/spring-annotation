@@ -10,6 +10,6 @@ public class Main
     {
         AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext(Config.class);
         Movie movie=context.getBean(Movie.class);
-
+        context.close();
     }
 }

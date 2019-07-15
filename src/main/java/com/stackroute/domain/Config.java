@@ -22,4 +22,10 @@ public class Config {
     {
     return actor ;
     }
+
+    @Bean(initMethod = "customBeanInit",destroyMethod = "customBeanDestroy")
+    public BeanLifecycleDemoBean getMethods()
+    {
+        return new BeanLifecycleDemoBean();
+    }
 }
