@@ -28,4 +28,9 @@ public class Config {
     {
         return new BeanLifecycleDemoBean();
     }
+    @Bean
+    public BeanPostProcessorDemoBean getBeans()
+    {
+        return new BeanPostProcessorDemoBean();
+    }
 }
