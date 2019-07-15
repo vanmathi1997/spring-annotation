@@ -23,7 +23,7 @@ public class Config {
     return actor ;
     }
 
-    @Bean(initMethod = "customBeanInit",destroyMethod = "customBeanDestroy")
+   /* @Bean(initMethod = "customBeanInit",destroyMethod = "customBeanDestroy")
     public BeanLifecycleDemoBean getMethods()
     {
         return new BeanLifecycleDemoBean();
@@ -32,5 +32,5 @@ public class Config {
     public BeanPostProcessorDemoBean getBeans()
     {
         return new BeanPostProcessorDemoBean();
-    }
+    }*/
 }
